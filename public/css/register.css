@@ -1,0 +1,143 @@
+
+.headernav i{
+    top: 13px;
+}
+
+input:focus:invalid{
+    background-color: pink;
+}
+
+input{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.inputText{
+   height: 29px;
+}
+
+
+h4{
+    margin-top: 20px;
+}
+
+.formularioRegstro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 0px 8%;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 60px;
+    height: 16px;
+}
+
+button{
+    width: 80px;
+    height: 25px;
+    margin: 5px 60px;
+    background-color: blue;
+    color: white;
+    border: solid black 1px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: #0022AA;
+}
+
+@media (min-width: 361px) {
+
+    .logo{
+        width: 30%;
+    }
+
+    .headernav{
+        font-size: 12px;
+        width: 32%;
+    }
+
+    .contenedorListas{
+        display: flex;
+    }
+
+    #cyv{
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .burger-menu{
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .burger-menu i{
+        background-color: blue;
+        color: white;
+        border-radius: 15%;
+        padding: 5px;
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        display: block;
+    }
+
+    .formularioRegstro{
+        padding: 0px 12%;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .headernav i{
+        top: 15px;
+    }
+    
+    .burger-menu i{
+        background-color: blue;
+        color: white;
+        border-radius: 15%;
+        padding: 5px;
+        display: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        display: block;
+    }
+
+    .formularioRegstro{
+        padding: 0px 20%;
+    }
+
+    .inputText{
+        height: 38px;
+    }
+
+    .articlefooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articlefooter section{
+        width: 33%;
+        padding: 0px 20px;
+    }
+}
